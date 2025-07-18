@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel to Mars</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Marsga uchamiz</h1>
+        <form class="form">
+            <label class="label" for="fullname">
+                <span class="form-label-span">Ism</span>
+                <input required class="form-fullname" type="text" id="fullname" placeholder="Ismingizni kiriting..." />
+            </label>
+            <div class="form-grid">
+                <label class="label" for="age">
+                    <span class="age">Yosh</span>
+                    <input required class="age-input" type="number" id="age" placeholder="Yoshingizni kiriting..." />
+                </label>
+                <label class="label" for="birthDay">
+                    <span class="birth">Tug'ilgan sana</span>
+                    <input required class="birth-input" type="date" id="birthDay" placeholder="Tug'ilgan sanangizni kiriting..." />
+                </label>
+                <label class="label" for="region">
+                    <span class="region">Tug'ilgan viloyat</span>
+                    <input required class="region-input" type="text" id="region" placeholder="Tug'ilgan viloyatingizni kiriting..." />
+                </label>
+                <label class="label" for="city">
+                    <span class="city">Tug'ilgan shahar</span>
+                    <input required class="city-input" type="text" id="city" placeholder="Tug'ilgan shahringizni kiriting..." />
+                </label>
+            </div>
+            <label id="hobby" class="label" for="hobby">
+                <span class="hobby">Hobby</span>
+                <textarea required class="hobby-input" id="hobby" placeholder="Hobbiyingizni kiriting..."></textarea>
+            </label>
+            <label class="label" for="why">
+                <span class="why">Nega Mars ?</span>
+                <textarea required class="why-input" id="why" placeholder="Nega aynan mars ?"></textarea>
+            </label>
+            <label class="label" for="budjet">
+                <span class="budjet">Budjet</span>
+                <input required class="budjet-input" type="number" id="budjet" placeholder="Budjet"></input>
+            </label>
+            <label class="label" for="fly">
+                <span class="fly">Hech Marsga uchganmisiz ?</span>
+                <div class="fly-content">
+                    <div class="fly-content-div">
+                        <input required class="fly-content-input" type="radio" name="hasFlown" value="yes" />
+                        Ha
+                    </div>
+                    <div class="fly-content-div">
+                        <input required class="fly-content-input" type="radio" name="hasFlown" value="no" />
+                        Yo‘q
+                    </div>
+                </div>
+            </label>
+            <label class="label" for="known">
+                <span class="known">Mars haqida nimalarni bilasiz ?</span>
+                <textarea required class="known-input" id="known" placeholder="Mars haqida bilganlaringiz..."></textarea>
+            </label>
+            <label class="label" for="with">
+                <span class="with">Kim bilan uchishni reja qildingiz ?</span>
+                <input required class="with-input" type="text" placeholder="Kim bilan ?">
+            </label>
+            <label class="label" for="when">
+                <span class="when">Qachon uchmoqchisiz ?</span>
+                <input required class="when-input" type="date" id="when">
+            </label>
+            <button>Uchish vaxti keldi</button>
+        </form>
+    </div>
+</body>
+
+</html>
